@@ -1,0 +1,13 @@
+---
+  # Default YAML file. Stores the best hyperparams for CNN AE.
+  common:
+    train_mode: 'default'
+    ckpt_save_path: 'ckpts/' # Change to Google Drive link if trained on Colab.
+    batch_size: 256
+    lr: 0.001
+    num_epochs: 250
+    train_data_path: 'data-bin/trainingset.npy'
+    test_data_path: 'data-bin/testingset.npy'
+    model_type: 'cnn'
+    schedule: 70 # Enable lr_scheduler at 50 epochs
+    

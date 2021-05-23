@@ -1,0 +1,7 @@
+Setup 1 (0.77 AUC_ROC Score):
+-   batch_size: 128
+-   lr: 0.001
+-   num_epochs: 250
+-   model_type: 'cnn'
+-   schedule: 50 
+-   gamma: 0.5
